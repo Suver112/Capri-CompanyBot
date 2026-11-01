@@ -1,0 +1,47 @@
+name: "Zgłoszenie błędu"
+description: "Zgłoś problem z działaniem Capri CompanyBot"
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Nie dodawaj kluczy API, danych logowania ani prywatnych rozmów."
+  - type: textarea
+    id: description
+    attributes:
+      label: "Opis problemu"
+      description: "Co nie działa?"
+      placeholder: "Krótko opisz problem..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Kroki odtworzenia"
+      description: "Jak wywołać błąd?"
+      placeholder: "1. Uruchom Capri...\n2. Wybierz...\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Oczekiwane działanie"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: "Wersja Capri"
+      placeholder: "0.1.1"
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: "System i konfiguracja"
+      description: "Windows, LLM, STT/TTS, GPU, jeśli ma znaczenie."
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logi lub zrzuty ekranu (opcjonalnie)"
+      description: "Najpierw usuń wszelkie prywatne dane."
