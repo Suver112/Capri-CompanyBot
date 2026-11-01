@@ -4,7 +4,7 @@ Capri CompanyBot to niezależny, niekomercyjny projekt fanowski. Nie jest oficja
 
 ## Grafika i głos Capri
 
-Domyślne grafiki i avatar Capri zostały wygenerowane przy użyciu ChatGPT na potrzeby tego projektu. Próbka referencyjna głosu Capri została wygenerowana przy użyciu Fish Audio. Według twórcy projektu jest w pełni syntetyczna i nie została oparta na głosie ani nagraniach rzeczywistej osoby.
+Domyślne grafiki i awatar Capri zostały wygenerowane przy użyciu ChatGPT na potrzeby tego projektu. **Głos dołączony do Capri CompanyBot nie jest głosem aktorki głosowej, aktora dubbingowego ani żadnej innej rzeczywistej osoby.** Według oświadczenia twórcy głos i jego próbka referencyjna są w pełni syntetyczne. Próbka została wygenerowana przy użyciu Fish Audio bez używania głosu ani nagrań prawdziwej osoby.
 
 Prawa do istniejących marek, światów przedstawionych, postaci i elementów twórczości innych podmiotów należą do właściwych uprawnionych. Zasady materiałów fanowskich CD PROJEKT RED: https://www.cdprojektred.com/pl/fan-content
 
