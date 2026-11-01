@@ -7,7 +7,7 @@
 
 **Wersja 0.1.1 · Wczesny dostęp · Windows**
 
-[**Pobieranie**](https://github.com/Suver112/Capri-CompanyBot/releases) · [**Kod źródłowy**](https://github.com/Suver112/Capri-CompanyBot) · [**Zgłoś błąd**](https://github.com/Suver112/Capri-CompanyBot/issues)
+[**Pobieranie**](https://github.com/Suver112/Capri-CompanyBot/releases) · [**Kod źródłowy**](src/) · [**Zgłoś błąd**](https://github.com/Suver112/Capri-CompanyBot/issues)
 
 </div>
 
@@ -44,7 +44,7 @@ Gotowe instalatory Windows są udostępniane osobno, w zakładce **[Releases](ht
 2. Pobierz `Capri_Setup.exe`, jeżeli jest dołączony.
 3. Uruchom instalator i skonfiguruj wybrany model oraz głos.
 
-**Repozytorium zawiera kod źródłowy**, a nie gotowy instalator, pliki EXE, binaria Fish czy wagi modeli. Dostępność i zawartość wydań mogą się różnić od stanu kodu na gałęzi `main`.
+**Repozytorium zawiera kod źródłowy w folderze [`src/`](src/)**, a nie gotowy instalator, pliki EXE, binaria Fish czy wagi modeli. Dostępność i zawartość wydań mogą się różnić od stanu kodu na gałęzi `main`.
 
 ## Uruchomienie ze źródeł
 
@@ -55,7 +55,7 @@ Dla osób, które chcą samodzielnie uruchomić aplikację na Windows:
 ```powershell
 py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe main.py
+.\.venv\Scripts\python.exe src/main.py
 ```
 
 Modele Ollama, back-endy syntezy i rozpoznawania mowy oraz ewentualne klucze API konfiguruje się oddzielnie. Samo `pip install` nie instaluje silnika Fish S2.cpp ani jego wag.
