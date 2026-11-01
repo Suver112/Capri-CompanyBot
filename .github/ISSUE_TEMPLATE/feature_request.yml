@@ -1,0 +1,23 @@
+name: "Propozycja funkcji"
+description: "Zaproponuj usprawnienie Capri CompanyBot"
+title: "[Pomysł] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Co chcesz usprawnić?"
+      placeholder: "Opisz sytuację lub potrzebę..."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Jak powinno to działać?"
+      description: "Napisz, co Capri miałaby zrobić i w jakim kontekście."
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Dodatkowe pomysły (opcjonalnie)"
