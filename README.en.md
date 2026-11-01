@@ -28,6 +28,6 @@ Use [Issues](https://github.com/Suver112/Capri-CompanyBot/issues). See [Contribu
 
 ## Credits and legal
 
-The default graphics were generated with ChatGPT. The synthetic reference voice sample was generated using Fish Audio and, according to the project creator, is not based on recordings or the voice of a real person.
+The default graphics were generated using ChatGPT. **The voice included with Capri is not the voice of any voice actress, voice actor, or other real person.** According to the project creator, it is fully synthetic: its reference sample was generated using **Fish Audio** without using a real person's voice or recordings.
 
 The repository contains a [GNU GPL v3 license file](LICENSE). Third-party software, voice models, model weights, and other materials may have separate license terms. This fan project is not associated with CD PROJEKT RED.
