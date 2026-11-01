@@ -44,7 +44,9 @@ Gotowe instalatory Windows są udostępniane osobno, w zakładce **[Releases](ht
 2. Pobierz `Capri_Setup.exe`, jeżeli jest dołączony.
 3. Uruchom instalator i skonfiguruj wybrany model oraz głos.
 
-**Repozytorium zawiera kod źródłowy w folderze [`src/`](src/)**, a nie gotowy instalator, pliki EXE, binaria Fish czy wagi modeli. Dostępność i zawartość wydań mogą się różnić od stanu kodu na gałęzi `main`.
+**Repozytorium zawiera kod źródłowy w folderze [`src/`](src/)**, a nie gotowy instalator, pliki EXE, binaria Fish czy wagi modeli.
+
+[**Informacje o wydaniu 0.1.1 i znanych problemach**](docs/13_WYDANIE_0_1_1.md). Kod źródłowy jest już publicznie dostępny na `main`; starsza notatka w opisie Release może być nieaktualna. Dostępność i zawartość wydań mogą się różnić od stanu kodu na gałęzi `main`.
 
 ## Uruchomienie ze źródeł
 
