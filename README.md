@@ -87,7 +87,7 @@ Przy zgłaszaniu błędów nie publikuj kluczy API, prywatnych rozmów ani plik�
 
 **Capri CompanyBot jest niezależnym projektem fanowskim.** Nie jest autoryzowany ani wspierany przez CD PROJEKT RED lub inne podmioty będące właścicielami wykorzystanych marek i technologii.
 
-Grafiki Capri zostały wygenerowane przy użyciu **ChatGPT**. Syntetyczna próbka referencyjna głosu Capri została wygenerowana przy użyciu **Fish Audio**; zgodnie z oświadczeniem twórcy nie opiera się na głosie ani nagraniach rzeczywistej osoby.
+Grafiki Capri zostały wygenerowane przy użyciu **ChatGPT**. **Głos dołączony do Capri nie jest głosem aktorki głosowej, aktora dubbingowego ani żadnej innej prawdziwej osoby.** Zgodnie z oświadczeniem twórcy jest w pełni syntetyczny: próbkę referencyjną wygenerowano przy użyciu **Fish Audio**, bez wykorzystywania głosu lub nagrań rzeczywistych osób.
 
 W repozytorium znajduje się plik [LICENSE](LICENSE) zawierający **GNU GPL v3**. Zewnętrzne biblioteki, silniki, modele, wagi i inne materiały zachowują **odrębne warunki licencyjne** — w szczególności nie należy utożsamiać licencji kodu Capri z prawami do wag Fish S2-Pro. Szczegóły: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
