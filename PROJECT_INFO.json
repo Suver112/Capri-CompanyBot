@@ -1,0 +1,12 @@
+{
+  "name": "Capri CompanyBot",
+  "version": "0.1.1",
+  "channel": "early-access",
+  "release_label": "Capri CompanyBot 0.1.1 — Wczesny dostęp",
+  "application_icon": "src/Capri.ico",
+  "default_avatar": "src/assets/default_avatar.png",
+  "artwork": "Generated with ChatGPT for the Capri project",
+  "voice": "Fully synthetic; not based on a real person, per project creator",
+  "local_models": "Ollama / Fish S2.cpp (optional)",
+  "stt": "Parakeet / Whisper"
+}

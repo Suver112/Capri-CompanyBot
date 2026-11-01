@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Dev/runtime environments
+.venv/
+venv/
+.build_venv/
+.env
+.env.*
+!.env.example
+*.egg-info/
+
+# Windows / builders
+build/
+dist/
+release/
+*.spec.bak
+*.log
+*.tmp
+*.bak
+*.pid
+*.dmp
+*.mdmp
+.vs/
+.vscode/
+.idea/
+
+# Generated Fish engine, model weights, downloads
+s2_cpp_engine/
+models/
+model_cache/
+cache/
+downloads/
+*.gguf
+*.onnx
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.tar.gz
+*.7z
+
+# Secrets & user profile
+settings.json
+credentials.json
+secrets.json
+*token*.json
+agent_activity.jsonl
+conversation_memory.sqlite3*
+*.sqlite*
+CapriOverlay/
+CapriOverlay_Beta/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IMPORTANT: DO NOT ignore assets/default_voice/*.wav or *.mp3,
+# which are intentional synthetic reference files in the project source.

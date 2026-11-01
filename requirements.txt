@@ -1,0 +1,13 @@
+PySide6>=6.7,<7
+sounddevice>=0.5,<1
+numpy>=1.26,<3
+faster-whisper>=1.1,<2
+
+Pillow>=10,<13
+
+# Fish S2.1 Pro Free: private Windows credential storage + binary reference audio
+msgpack>=1.1,<2
+keyring>=25,<27
+
+# Hej Capri uses Parakeet; no separate wake-word model is installed.
+imageio-ffmpeg>=0.5,<1

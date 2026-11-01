@@ -1,0 +1,5 @@
+Fish S2-Pro — Fish Audio Research License
+Copyright (c) 39 AI, Inc. Wszelkie prawa zastrzeżone.
+Wagi modelu są udostępniane do zastosowań badawczych i niekomercyjnych zgodnie z warunkami dostawcy.
+Tekst licencji: https://huggingface.co/fishaudio/s2-pro/blob/main/LICENSE.md
+Źródło kodu Fish Speech i odrębnej licencji: https://github.com/fishaudio/fish-speech
