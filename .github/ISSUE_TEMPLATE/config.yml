@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Bezpieczeństwo i prywatne zgłoszenia"
+    url: "https://github.com/Suver112/Capri-CompanyBot/security"
+    about: "Poważnych podatności nie opisuj publicznie. Sprawdź dostępne metody zgłoszenia w zakładce Security."
