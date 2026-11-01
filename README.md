@@ -5,7 +5,7 @@ Twoja głosowa towarzyszka pulpitu. Z charakterem.
 Wersja 0.1.1 · Wczesny dostęp · Windows
 
 Pobieranie · Kod źródłowy · Zgłoś błąd
-</div>[!IMPORTANT]
+</div> [WAŻNE!!!!]
 Nieoficjalny projekt fanowski inspirowany uniwersum Cyberpunk. Capri CompanyBot nie jest tworzona, autoryzowana, wspierana ani powiązana z CD PROJEKT RED. Prawa do świata, postaci, nazw i znaków towarowych należą do odpowiednich właścicieli. Zasady twórczości fanowskiej CD PROJEKT RED.
 
 Czym jest Capri CompanyBot?
