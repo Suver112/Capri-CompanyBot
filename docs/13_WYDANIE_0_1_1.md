@@ -38,15 +38,15 @@ This build is intended for early adopters and testers. Some features may require
 
 **Installer SHA-256:** `45a8b8119a7ce35fa4de8ce716567fc485b0f4d58de3392b9de1fb4f2705f2ac`
 
-**Optional online speech:** If using the Fish Audio API, obtain a key from [Fish Audio](https://fish.audio/) and configure the relevant Fish voice option in Capri. This requires an internet connection; access, free-tier availability, limits, and pricing are determined by Fish Audio and may change.
+**Optional online speech:** If using the Fish Audio API, obtain a key from [Fish Audio](https://fish.audio/) and configure the Fish S2.1 PRO FREE voice option in Capri. This requires an internet connection; access, free-tier availability, limits, and pricing are determined by Fish Audio and may change.
 
-**Source code:** The current repository includes the application source in [`src/`](../src/). Source code and the published installer are distributed separately; the `main` branch may contain changes not included in this release.
+**Source code:** The current repository includes the application source in [`src/`](https://github.com/Suver112/Capri-CompanyBot/tree/main/src/). Source code and the published installer are distributed separately; the `main` branch may contain changes not included in this release.
 
 ### Feedback and legal notice
 
 Please report reproducible problems through [GitHub Issues](https://github.com/Suver112/Capri-CompanyBot/issues). Include system details, the selected AI/STT/TTS backends, reproduction steps, and redacted logs. **Do not share private conversations or API credentials.**
 
-Capri CompanyBot is an **independent, unofficial Cyberpunk-inspired fan project**. It is not developed, endorsed, or supported by CD PROJEKT RED. According to the creator, the included Capri voice is fully synthetic and was generated without recordings of a real person's voice. Third-party software and model weights remain subject to their own licenses; see [third-party notices](../THIRD_PARTY_NOTICES.md).
+Capri CompanyBot is an **independent, unofficial Cyberpunk-inspired fan project**. It is not developed, endorsed, or supported by CD PROJEKT RED. According to the creator, the included Capri voice is fully synthetic and was generated without recordings of a real person's voice. Third-party software and model weights remain subject to their own licenses; see [third-party notices](https://github.com/Suver112/Capri-CompanyBot/blob/main/THIRD_PARTY_NOTICES.md).
 
 ---
 
@@ -86,12 +86,12 @@ Wydanie jest przeznaczone dla wczesnych użytkowników i testerów. Niektóre fu
 
 **Suma SHA-256 instalatora:** `45a8b8119a7ce35fa4de8ce716567fc485b0f4d58de3392b9de1fb4f2705f2ac`
 
-**Opcjonalna synteza online:** Jeśli chcesz korzystać z API Fish Audio, uzyskaj klucz na stronie [Fish Audio](https://fish.audio/) i ustaw odpowiednią opcję głosową Fish w Capri. Wymagany jest internet. Dostępność darmowego planu, limity i ceny zależą od Fish Audio i mogą się zmieniać.
+**Opcjonalna synteza online:** Jeśli chcesz korzystać z API Fish Audio, uzyskaj klucz na stronie [Fish Audio](https://fish.audio/) i wybierz opcję głosową Fish S2.1 PRO FREE w Capri. Wymagany jest internet. Dostępność darmowego planu, limity i ceny zależą od Fish Audio i mogą się zmieniać.
 
-**Kod źródłowy:** Repozytorium zawiera kod aplikacji w katalogu [`src/`](../src/). Kod i instalator są publikowane osobno; gałąź `main` może zawierać zmiany, których nie ma w tym wydaniu.
+**Kod źródłowy:** Repozytorium zawiera kod aplikacji w katalogu [`src/`](https://github.com/Suver112/Capri-CompanyBot/tree/main/src/). Kod i instalator są publikowane osobno; gałąź `main` może zawierać zmiany, których nie ma w tym wydaniu.
 
 ### Zgłaszanie problemów i informacje prawne
 
 Błędy można zgłaszać przez [GitHub Issues](https://github.com/Suver112/Capri-CompanyBot/issues). Podaj konfigurację sprzętową, wybrane silniki AI/STT/TTS, kroki odtworzenia problemu i zanonimizowane logi. **Nie publikuj prywatnych rozmów ani kluczy API.**
 
-Capri CompanyBot to **niezależny, nieoficjalny projekt fanowski inspirowany uniwersum Cyberpunk**. Nie jest tworzony, autoryzowany ani wspierany przez CD PROJEKT RED. Zgodnie z oświadczeniem twórcy dołączony głos Capri jest w pełni syntetyczny i powstał bez wykorzystania nagrań głosu prawdziwej osoby. Oprogramowanie i wagi modeli innych twórców podlegają osobnym licencjom. Szczegóły: [informacje o komponentach zewnętrznych](../THIRD_PARTY_NOTICES.md).
+Capri CompanyBot to **niezależny, nieoficjalny projekt fanowski inspirowany uniwersum Cyberpunk**. Nie jest tworzony, autoryzowany ani wspierany przez CD PROJEKT RED. Zgodnie z oświadczeniem twórcy dołączony głos Capri jest w pełni syntetyczny i powstał bez wykorzystania nagrań głosu prawdziwej osoby. Oprogramowanie i wagi modeli innych twórców podlegają osobnym licencjom. Szczegóły: [informacje o komponentach zewnętrznych](https://github.com/Suver112/Capri-CompanyBot/blob/main/THIRD_PARTY_NOTICES.md).
