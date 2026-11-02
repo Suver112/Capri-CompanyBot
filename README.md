@@ -1,58 +1,63 @@
+[🇵🇱 **Przełącz na Polski**](README.pl.md)
+
 <div align="center">
 
 # CAPRI
 ### CompanyBot
 
-**Twoja głosowa towarzyszka pulpitu. Z charakterem.**
+**Your AI-powered desktop voice companion. With personality.**
 
-**Wersja 0.1.1 · Wczesny dostęp · Windows**
+**Version 0.1.1 · Early Access · Windows**
 
-[**Pobieranie**](https://github.com/Suver112/Capri-CompanyBot/releases) · [**Kod źródłowy**](src/) · [**Zgłoś błąd**](https://github.com/Suver112/Capri-CompanyBot/issues)
+[**Download Capri**](https://github.com/Suver112/Capri-CompanyBot/releases/tag/Pre-Release) · [**Source Code**](src/) · [**Report an Issue**](https://github.com/Suver112/Capri-CompanyBot/issues)
 
 </div>
 
 > [!IMPORTANT]
-> **Nieoficjalny projekt fanowski inspirowany uniwersum Cyberpunk.** Capri CompanyBot nie jest tworzona, autoryzowana, wspierana ani powiązana z **CD PROJEKT RED**. Prawa do świata, postaci, nazw i znaków towarowych należą do odpowiednich właścicieli. [Zasady twórczości fanowskiej CD PROJEKT RED](https://www.cdprojektred.com/pl/fan-content).
+> **Unofficial fan project inspired by the Cyberpunk universe.** Capri CompanyBot is not developed, endorsed, approved, supported by, or affiliated with **CD PROJEKT RED**. Relevant characters, names, and trademarks belong to their respective owners. See the [CD PROJEKT RED fan content guidelines](https://www.cdprojektred.com/en/fan-content).
 
 ---
 
-## Czym jest Capri CompanyBot?
+## About Capri CompanyBot
 
-**Capri CompanyBot** to niezależna aplikacja desktopowa, która łączy rozmowę z AI, głos, pamięć konwersacji i cyberpunkowy interfejs. Jej celem jest bycie ekspresyjną, zadziorną towarzyszką komputera — nie tylko kolejnym oknem czatu.
+**Capri CompanyBot** is an independent desktop application combining conversational AI, voice interaction, conversation memory, and a cyberpunk-inspired interface. Its focus is on an expressive character, local AI processing, and selected desktop actions — rather than a conventional text-only chatbot.
 
-Projekt stawia na lokalne modele, kontekst rozmowy oraz możliwość wykonywania wybranych działań na komputerze. Poszczególne funkcje zależą od konfiguracji i podłączonych usług.
+Capri is an **early-access project**. Feature availability depends on your configuration, language model, speech engines, hardware, and connected services.
 
-### Możliwości
+## Features
 
-| | |
-|---|---|
-| **Rozmowa z AI** | Lokalne modele przez Ollamę, m.in. Qwen i Bielik; opcjonalne API |
-| **Pamięć i kontekst** | Wieloturowe rozmowy, osobowość, emocje i lokalna pamięć |
-| **Rozpoznawanie mowy** | Whisper / Parakeet, zależnie od konfiguracji |
-| **Synteza głosu** | Fish S2.cpp i opcjonalne silniki TTS; biblioteka próbek referencyjnych |
-| **Wygląd** | Motywy Basic, Holocall i Silverhand, awatar oraz tryb Mini |
-| **Sterowanie komputerem** | Polecenia dotyczące programów, gier, przeglądarki i multimediów |
-| **Muzyka** | Opcjonalna integracja ze Spotify i sterowanie odtwarzaniem |
+| Category | Capabilities |
+| --- | --- |
+| **Conversational AI** | Local models via Ollama, including Qwen and Bielik; optional external APIs |
+| **Context and personality** | Multi-turn context, local memory, personality, and emotional responses |
+| **Speech recognition (STT)** | Configurable Whisper- or Parakeet-based recognition |
+| **Voice synthesis (TTS)** | Fish S2.cpp and optional speech backends; reference voice samples |
+| **Interface** | Basic, Holocall, and Silverhand themes, avatar, and Mini mode |
+| **Desktop controls** | Selected commands for applications, games, browser, and media |
+| **Integrations** | Optional Spotify integration and other connected services |
 
-> Capri jest w fazie **wczesnego dostępu**. Nie wszystkie integracje i silniki działają na każdym komputerze, a część wymaga osobnej instalacji lub konfiguracji.
+> [!NOTE]
+> Some features require additional models, separate backends, or external service setup. Hardware acceleration is not guaranteed on all systems. **The 0.1.1 release does not include a ready-to-use CUDA backend.**
 
-## Pobierz Capri
+## Download and installation
 
-Gotowe instalatory Windows są udostępniane osobno, w zakładce **[Releases](https://github.com/Suver112/Capri-CompanyBot/releases)**, po opublikowaniu danego wydania.
+**Operating system:** Windows 10 or 11. Local AI hardware requirements vary significantly with the selected models and speech engines.
 
-1. Otwórz **Releases** i wybierz najnowsze *opublikowane* wydanie.
-2. Pobierz `Capri_Setup.exe`, jeżeli jest dołączony.
-3. Uruchom instalator i skonfiguruj wybrany model oraz głos.
+1. Visit [**Capri 0.1.1 — Early Access**](https://github.com/Suver112/Capri-CompanyBot/releases/tag/Pre-Release).
+2. Download `Capri_Setup.exe` from **Assets**.
+3. Run the installer and configure your preferred language model, speech recognition, and voice settings.
 
-**Repozytorium zawiera kod źródłowy w folderze [`src/`](src/)**, a nie gotowy instalator, pliki EXE, binaria Fish czy wagi modeli.
+Windows or antivirus software may display a warning. Verify that the file comes from the official release and review its signature/checksum before making any security decisions.
 
-[**Informacje o wydaniu 0.1.1 i znanych problemach**](docs/13_WYDANIE_0_1_1.md). Kod źródłowy jest już publicznie dostępny na `main`; starsza notatka w opisie Release może być nieaktualna. Dostępność i zawartość wydań mogą się różnić od stanu kodu na gałęzi `main`.
+**[Release notes and known issues — English / Polski](docs/13_WYDANIE_0_1_1.md)**
 
-## Uruchomienie ze źródeł
+The source code is published in [`src/`](src/). This repository is **not** a replacement for the packaged Windows installer and does not contain all external models or Fish weights.
 
-Dla osób, które chcą samodzielnie uruchomić aplikację na Windows:
+## Run from source
 
-**Wymagania:** Windows 10/11, Python 3.11 oraz — dla lokalnych modeli rozmowy — [Ollama](https://ollama.com/).
+For developers and advanced users setting up Capri manually on Windows.
+
+**Basic prerequisites:** Windows 10/11, Python 3.11, and [Ollama](https://ollama.com/) if you want to run local language models.
 
 ```powershell
 py -3.11 -m venv .venv
@@ -60,45 +65,45 @@ py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe src/main.py
 ```
 
-Modele Ollama, back-endy syntezy i rozpoznawania mowy oraz ewentualne klucze API konfiguruje się oddzielnie. Samo `pip install` nie instaluje silnika Fish S2.cpp ani jego wag.
+Ollama models, STT/TTS engines, and any API keys must be configured separately. Installing Python dependencies **does not install** Fish S2.cpp or its model weights.
 
-## Najczęstsze pytania
+## Frequently asked questions
 
-**Czy Capri jest darmowa?**  
-Projekt jest udostępniany bez opłaty za samą aplikację. Zewnętrzne API i niektóre usługi mogą mieć własne opłaty.
+**Is Capri free?**  
+The application is available free of charge. Optional third-party APIs and services may apply their own fees and terms.
 
-**Czy działa bez internetu?**  
-Lokalna rozmowa może działać bez połączenia po wcześniejszym przygotowaniu modeli i silników. Pobieranie modeli, Spotify i usługi online wymagają internetu.
+**Can Capri run offline?**  
+Selected local functions can work offline after the required models and components have been downloaded and configured. Model downloads, Spotify, and cloud services require internet access.
 
-**Czy trzeba mieć kartę NVIDIA?**  
-Nie. Dostępne możliwości przyspieszenia zależą od wybranego silnika, sterowników i sprzętu. Nie każda konfiguracja obsługuje wszystkie backendy.
+**Do I need an NVIDIA GPU?**  
+No. Acceleration options vary by hardware, drivers, and backend. The 0.1.1 release does not include ready-to-use CUDA support, and Vulkan availability depends on your system.
 
-**Czy Capri jest oficjalną postacią lub produktem CD PROJEKT RED?**  
-Nie. To niezależny, nieoficjalny projekt fanowski.
+**Where can I report issues?**  
+Use [GitHub Issues](https://github.com/Suver112/Capri-CompanyBot/issues) with the Capri version, reproduction steps, expected versus actual behavior, and appropriately redacted logs.
 
-## Dokumentacja, błędy i współpraca
+## Documentation and contributions
 
-- [Zgłoś błąd lub zaproponuj funkcję](https://github.com/Suver112/Capri-CompanyBot/issues)
-- [Zasady współpracy](CONTRIBUTING.md)
-- [Zgłaszanie problemów bezpieczeństwa](SECURITY.md)
-- [English README](README.en.md)
+- [Report bugs or request features](https://github.com/Suver112/Capri-CompanyBot/issues)
+- [Contribution guidelines](CONTRIBUTING.md)
+- [Security reporting](SECURITY.md)
+- [Third-party licenses and notices](THIRD_PARTY_NOTICES.md)
 
-Przy zgłaszaniu błędów nie publikuj kluczy API, prywatnych rozmów ani plików lokalnego profilu.
+**Do not share API keys, private conversations, personal information, or complete user profiles in issue reports.**
 
-## Informacje prawne
+## Credits and legal information
 
-**Capri CompanyBot jest niezależnym projektem fanowskim.** Nie jest autoryzowany ani wspierany przez CD PROJEKT RED lub inne podmioty będące właścicielami wykorzystanych marek i technologii.
+Capri CompanyBot is an **independent, unofficial fan project** and is not affiliated with CD PROJEKT RED.
 
-Grafiki Capri zostały wygenerowane przy użyciu **ChatGPT**. **Głos dołączony do Capri nie jest głosem aktorki głosowej, aktora dubbingowego ani żadnej innej prawdziwej osoby.** Zgodnie z oświadczeniem twórcy jest w pełni syntetyczny: próbkę referencyjną wygenerowano przy użyciu **Fish Audio**, bez wykorzystywania głosu lub nagrań rzeczywistych osób.
+Capri's artwork was generated using **ChatGPT**. According to the creator, **the included voice is entirely synthetic**: its reference sample was generated using Fish Audio without recordings or the voice of any real person.
 
-W repozytorium znajduje się plik [LICENSE](LICENSE) zawierający **GNU GPL v3**. Zewnętrzne biblioteki, silniki, modele, wagi i inne materiały zachowują **odrębne warunki licencyjne** — w szczególności nie należy utożsamiać licencji kodu Capri z prawami do wag Fish S2-Pro. Szczegóły: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+The project source code is distributed under [GNU GPL v3](LICENSE). Third-party libraries, engines, models, model weights, and other assets retain their **own license terms**. In particular, the Capri source-code license does **not** imply that Fish S2-Pro weights are GPL-licensed. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ---
 
 <div align="center">
 
-**Capri CompanyBot · 0.1.1 — Wczesny dostęp**
+**Capri CompanyBot · 0.1.1 — Early Access**
 
-*Fan-made. Independent. Not affiliated with CD PROJEKT RED.*
+*Fan-made · Independent · Not affiliated with CD PROJEKT RED*
 
 </div>
