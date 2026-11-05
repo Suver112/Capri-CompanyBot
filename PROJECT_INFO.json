@@ -1,8 +1,8 @@
 {
   "name": "Capri CompanyBot",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "channel": "early-access",
-  "release_label": "Capri CompanyBot 0.1.1 — Wczesny dostęp",
+  "release_label": "Capri 0.1.3 — Wczesny dostęp",
   "application_icon": "src/Capri.ico",
   "default_avatar": "src/assets/default_avatar.png",
   "artwork": "Generated with ChatGPT for the Capri project",
